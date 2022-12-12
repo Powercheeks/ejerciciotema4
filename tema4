@@ -1,7 +1,7 @@
 // parte 1 IF ELSE
 
-var numerIlf = 1;
-if ( numerIlf > 0 ) {
+var numeroIf = 1;
+if ( numeroIf > 0 ) {
 System.out.println ("positivo");
 }
 else if (numeroIf < 0) {

@@ -1,0 +1,57 @@
+// parte 1 IF ELSE
+
+var numerIlf = 1;
+if ( numerIlf > 0 ) {
+System.out.println ("positivo");
+}
+else if (numeroIf < 0) {
+System.out.println ("negativo");
+}
+else (numeroIf == 0) {
+System.out.println ("es 0");
+}
+
+// parte 2 WHILE
+var numeroWhile = 1;
+
+while ( numeroWhile < 3 ) {
+numeroWhile = numeroWhile + 1;
+System.out.println (numeroWhile);
+}
+
+// parte 3 DO WHILE
+
+var numeroWhile = 1;
+
+do { 
+numeroWhile = numeroWhile + 1;
+System.out.println (numeroWhile);
+} while (numeroWhile < 3 );
+
+// parte 4 FOR
+
+for (numeroFor : 0; numeroFor <= 3 ; numeroFor + 1){
+System.out.println (numeroFor);
+}
+
+//parte SWITCH
+
+switch (estacion) {
+case "VERANO":
+System.out.println ("Es Verano");
+break;
+case "OTOÑO":
+System.out.println ("Es Otoño");
+break;
+case "INVIERNO":
+System.out.println ("Es Invierno");
+break;
+case "PRIMAVERA":
+System.out.println ("Es Primavera");
+break;
+default: 
+System.out.println ("No es una estación");
+
+}
+
+
